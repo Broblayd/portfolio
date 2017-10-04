@@ -1,0 +1,38 @@
+header, ul, nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.logo {
+    
+}
+nav {
+    justify-content: flex-start;
+}
+header {
+    justify-content: space-around;
+
+}
+ul {
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    margin: 0 10px 0 10px;
+    line-height: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-bottom: solid 1px white;
+
+}
+
+a:hover {
+    border-bottom: solid 1px black;
+}
